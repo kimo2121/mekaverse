@@ -29,11 +29,11 @@
 }
 .road-intro {
   color: white;
-  width: 35%;
+  width: 577px;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 10vh;
-  height: 30vh;
+  min-height: 30vh;
 }
 .road-intro p {
   color: #848198;
@@ -96,6 +96,9 @@
   .roadmap > div {
     background: #04091a;
     width: 600px !important;
+  }
+  .road-intro {
+    width: 90%;
   }
 }
 @media screen and (max-width: 650px) {

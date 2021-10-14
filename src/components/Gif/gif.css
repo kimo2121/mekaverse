@@ -64,8 +64,7 @@
     margin-bottom: 5vh;
   }
   .gif-pyramid img:first-child {
-    margin-left: 0;
-    right: 40px;
+    right: -50px;
   }
 }
 @media screen and (max-width: 670px) {
@@ -76,7 +75,8 @@
   }
   .gif-pyramid img:first-child {
     margin-left: 0;
-    right: 0px;
+    right: -40px;
+
     width: 100px;
     height: 100px;
   }
