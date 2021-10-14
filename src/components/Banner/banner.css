@@ -8,6 +8,25 @@
   margin-top: -30vh;
   margin-bottom: 15vh;
 }
+.timer-cont {
+  /* background-color: #4753d6; */
+  padding: 25px 30px;
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 100001;
+  font-weight: 700;
+  transition: all 0.5s;
+  color: #fff;
+  left: 0;
+  right: 0;
+  top: 50%;
+  width: 250px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* 
 .banner:before {
   content: "";
@@ -36,20 +55,20 @@
   background-color: #4753d6;
   padding: 25px 30px;
   position: absolute;
-  box-sizing: border-box;
   z-index: 100001;
+  box-sizing: border-box;
   font-weight: 700;
   transition: all 0.5s;
   color: #fff;
   left: 0;
   right: 0;
+  margin-left: auto;
+  margin-right: auto;
   top: 50%;
   width: 250px;
   font-size: 20px;
   border: none;
   cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
 }
 .banner-btn:hover {
   background-color: #6c77ea !important;

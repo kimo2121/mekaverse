@@ -1,5 +1,5 @@
 .roadmap-container {
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
 }
 .roadmap span {
   background: linear-gradient(90deg, #d02561, #ff79a8);
@@ -8,7 +8,11 @@
   margin-right: 1vw;
   font-size: 20px;
 }
-
+.roadmap h3 {
+  font-size: 30px;
+  margin: 0;
+  margin-left: 10px;
+}
 .roadmap {
   color: white;
   /* min-height: 120vh; */
@@ -35,6 +39,9 @@
   margin-bottom: 10vh;
   min-height: 30vh;
 }
+.road-intro h1 {
+  font-size: 46px;
+}
 .road-intro p {
   color: #848198;
   font-size: 18px;
@@ -44,6 +51,7 @@
 .roadmap p {
   color: #848198;
   font-size: 18px;
+  line-height: 180%;
 }
 .vertical-line {
   position: relative;
@@ -55,8 +63,9 @@
 .line-line {
   position: absolute;
   margin-top: -160px;
-  margin-left: -40px !important;
+  margin-left: -42px !important;
   background: #ff79a8;
+  z-index: 100000;
   background: linear-gradient(180deg, #ff79a8, #d02561 49%);
   width: 3px;
   height: 170px;
@@ -65,7 +74,7 @@
 .diamond-raod {
   background: #04091a;
   position: absolute;
-  margin-top: 10px;
+  margin-top: -5px;
   margin-left: -60px;
   padding: 10px;
   z-index: 100000 !important;
@@ -100,16 +109,31 @@
   .road-intro {
     width: 90%;
   }
+  .roadmap h3 {
+    font-size: 24px;
+  }
+  .roadmap div div {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start !important;
+  }
 }
+
 @media screen and (max-width: 650px) {
   .roadmap > div {
     background: #04091a;
     width: 450px !important;
   }
+  .roadmap > div {
+    padding-right: 20px;
+  }
 }
 @media screen and (max-width: 500px) {
   .roadmap > div {
     background: #04091a;
-    width: 350px !important;
+    width: 370px !important;
+  }
+  .roadmap h3 {
+    font-size: 24px;
   }
 }

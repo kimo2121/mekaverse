@@ -6,7 +6,7 @@
 }
 .slider-container {
   width: 100%;
-  min-height: 50vh;
+  min-height: 30vh;
   margin: 6vh 0 !important;
 }
 .slider-component .slick-dots {
