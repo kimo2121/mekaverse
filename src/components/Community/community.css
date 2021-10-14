@@ -1,0 +1,78 @@
+.community-component {
+  background-image: url(/src/assets/images/sky.jpg);
+  background-position: left center;
+  background-size: cover;
+  height: 488px;
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+.community-component div {
+  width: 510px;
+  text-align: left;
+  margin: auto 0;
+  left: 15vw;
+  position: relative;
+}
+.community-component div h1 {
+  font-size: 50px;
+}
+.community-component div p {
+  width: 462px;
+  font-size: 18px;
+  color: #848198;
+}
+.community-component img {
+  width: 580px;
+  height: 427px;
+}
+
+.community-component div button {
+  padding: 16px 30px;
+  background: #4753d6;
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.5s !important;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.community-component div button:hover {
+  background: #6c77ea;
+}
+@media screen and (max-width: 1200px) {
+  .community-component img {
+    width: 440px;
+    height: 370px;
+  }
+  .community-component div p {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .community-component img {
+    width: 280px;
+    height: 290px;
+    object-fit: cover;
+  }
+  .community-component div {
+    width: 100%;
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 650px) {
+  .community-component img {
+    display: none;
+  }
+
+  .community-component div {
+    text-align: center;
+    left: 0;
+  }
+  .community-component div p {
+    width: 100%;
+  }
+}

@@ -1,0 +1,261 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.team {
+  width: 1160px;
+  margin: 18vh auto;
+  box-sizing: border-box;
+  padding: 0 60px;
+}
+.team-1st {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-align: left;
+  margin-bottom: 5vh;
+}
+.team-1st > div {
+  text-align: right;
+  width: 392px;
+}
+.member-details h3 {
+  font-size: 30px;
+}
+.team-1st > div h3 {
+  color: #848198;
+  margin: 0;
+  font-size: 40px;
+}
+.team-1st > div h2 {
+  background: linear-gradient(90deg, #d02561, #ff79a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0;
+  font-size: 50px;
+  font-weight: 700;
+}
+.team-1st p {
+  width: 577px;
+  color: #848198;
+  font-size: 18px;
+  line-height: 180%;
+}
+.team-1st div {
+  margin-right: 40px;
+}
+.team-1st div img {
+  position: absolute;
+  margin-left: -450px;
+  margin-top: -90px;
+}
+.team-member {
+  display: flex;
+  color: white;
+  min-height: 34vh;
+  justify-content: space-between;
+}
+.member-clone img {
+  height: 348px;
+}
+.member-clone {
+  margin-right: 50px;
+}
+.member-details a {
+  background-color: #4753d6;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1vw;
+}
+.member-details a svg {
+  fill: white;
+}
+.member-details div {
+  display: flex;
+}
+.team-slider h3 {
+  text-align: left;
+  line-height: 180%;
+  font-size: 22px;
+  margin: 30px 0;
+}
+.member-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.team-slider-component {
+  width: 90%;
+}
+.team-slider-component img {
+  height: 348px;
+  left: 0;
+  object-fit: cover !important;
+  width: 265px !important;
+  margin-right: 29px;
+}
+.team-slider {
+  width: 60%;
+}
+
+.team-slider .slick-track {
+  display: flex !important;
+  width: 100% !important;
+}
+
+.team-slider .slick-slide {
+  display: flex !important;
+}
+.team-slider .slick-dots {
+  width: 0 !important;
+}
+.slick-dots .slick-active button {
+  background-color: white !important;
+}
+.team-slider .slick-dots li button {
+  background-color: #4e619a;
+  width: 22px;
+  position: absolute;
+  height: 1px !important;
+  transition: all 0.3s;
+}
+.team-slider .slick-dots {
+  top: -50px;
+  right: 0;
+}
+.slick-dots li button:before {
+  font-size: 0 !important;
+}
+.slick-dots {
+  min-width: 70px !important;
+  margin: 0 0.5vw !important;
+}
+@media screen and (max-width: 1200px) {
+  .team {
+    width: 1000px;
+  }
+  .team-1st div img {
+    left: 0;
+
+    margin-left: 0;
+  }
+  .team-slider {
+    width: 60%;
+  }
+  /* .team-member {
+    min-height: 34vh;
+  } */
+  .team-slider-component img {
+    width: 220px !important;
+    height: 220px;
+  }
+  .member-clone img {
+    width: 220px !important;
+    height: 220px;
+  }
+  .team-1st p {
+    width: 100%;
+  }
+  .team-member {
+    height: 25vh;
+    min-height: unset;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .team {
+    width: 800px;
+  }
+  .team-slider {
+    width: 70%;
+  }
+  .team-slider-component img {
+    width: 200px !important;
+    height: 200px;
+  }
+  .member-clone img {
+    width: 200px !important;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .team-1st {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .team-1st div img {
+    right: 20vw;
+    left: unset;
+    transform: rotate(105deg);
+    margin-left: 0;
+  }
+  .team-1st > div {
+    width: 100%;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 800px) {
+  .team-member {
+    flex-direction: column;
+  }
+  .team {
+    width: 100%;
+  }
+  .member-clone img {
+    width: 100% !important;
+    height: 100%;
+  }
+  .team-member {
+    height: fit-content;
+  }
+  .team-slider {
+    width: 100%;
+  }
+  .team-slider-component img {
+    width: 40vw !important;
+    height: 100%;
+  }
+  .member-clone {
+    margin-right: 0;
+  }
+  .team-slider-component {
+    width: 100%;
+  }
+  .team-slider .slick-dots {
+    top: -50px;
+    right: 0;
+  }
+}
+@media screen and (max-width: 630px) {
+  .team-slider-component img {
+    width: 42vw !important;
+    height: 100%;
+  }
+  .team-1st div img {
+    right: 5vw;
+    left: unset;
+    transform: rotate(105deg);
+    margin-left: 0;
+  }
+  .team {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .team-slider-component img {
+    width: 41vw !important;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .team-1st div img {
+    right: 5vw;
+    left: unset;
+    transform: rotate(165deg);
+    margin-left: 0;
+    margin-top: 70px;
+  }
+}

@@ -1,0 +1,112 @@
+.roadmap-container {
+  margin-top: 10vh;
+}
+.roadmap span {
+  background: linear-gradient(90deg, #d02561, #ff79a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 1vw;
+  font-size: 20px;
+}
+
+.roadmap {
+  color: white;
+  /* min-height: 120vh; */
+}
+.roadmap > div {
+  background: #04091a;
+  width: 808px;
+  padding: 50px 0;
+  margin: 5vh auto;
+  padding-left: 100px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.unknown-div {
+  display: flex;
+  justify-content: center;
+}
+.road-intro {
+  color: white;
+  width: 35%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10vh;
+  height: 30vh;
+}
+.road-intro p {
+  color: #848198;
+  font-size: 18px;
+  line-height: 180%;
+}
+
+.roadmap p {
+  color: #848198;
+  font-size: 18px;
+}
+.vertical-line {
+  position: relative;
+  width: 1px !important;
+  left: 60px;
+  z-index: 1000;
+  background: hsla(0, 0%, 100%, 0.4);
+}
+.line-line {
+  position: absolute;
+  margin-top: -160px;
+  margin-left: -40px !important;
+  background: #ff79a8;
+  background: linear-gradient(180deg, #ff79a8, #d02561 49%);
+  width: 3px;
+  height: 170px;
+}
+
+.diamond-raod {
+  background: #04091a;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -60px;
+  padding: 10px;
+  z-index: 100000 !important;
+  display: block;
+}
+@media screen and (max-width: 1200px) {
+  .roadmap > div {
+    /* width: 90%;
+    margin: auto; */
+  }
+  .vertical-line {
+    /* position: absolute;
+    width: 1px !important;
+    height: 165vh;
+    min-height: 0; */
+    /* left: 117px !important; */
+  }
+}
+@media screen and (max-width: 850px) {
+  .vertical-line {
+  }
+  .roadmap > div {
+    background: #04091a;
+    width: 700px !important;
+  }
+}
+@media screen and (max-width: 750px) {
+  .roadmap > div {
+    background: #04091a;
+    width: 600px !important;
+  }
+}
+@media screen and (max-width: 650px) {
+  .roadmap > div {
+    background: #04091a;
+    width: 450px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .roadmap > div {
+    background: #04091a;
+    width: 350px !important;
+  }
+}

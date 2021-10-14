@@ -1,0 +1,61 @@
+.banner {
+  background-image: url(/src//assets/images/mask.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: -10;
+  margin-top: -30vh;
+  margin-bottom: 15vh;
+}
+/* 
+.banner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 90%;
+  width: 50.2%;
+  background: #d2d2de;
+  transform: skew(0deg, 6deg);
+}
+.banner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 90%;
+  width: 50%;
+  background: #d2d2de;
+  transform: skew(0deg, -6deg);
+} */
+.banner-btn {
+  background-color: #4753d6;
+  padding: 25px 30px;
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 100001;
+  font-weight: 700;
+  transition: all 0.5s;
+  color: #fff;
+  left: 0;
+  right: 0;
+  top: 50%;
+  width: 250px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+.banner-btn:hover {
+  background-color: #6c77ea !important;
+}
+@media screen and (max-width: 500px) {
+  .banner:before {
+    width: 50.5%;
+  }
+}
